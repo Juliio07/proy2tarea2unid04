@@ -53,5 +53,16 @@ public class DebuggingExample {
     public double calculateAverageLetters(List<String> names, int totalLetters) {
         return names.isEmpty() ? 0 : (double) totalLetters / names.size(); // Set a breakpoint and use 'Evaluate Expression' here
     }
+    
+    /**
+     * Método que muestra un mensaje por pantalla.
+     * @author JSB
+     * @return void
+     */
+
+    // JSB: Se añade método que muestra un mensaje por pantalla
+    public void mostrarMensaje() {
+        System.out.println("JSB: Método añadido en el ejercicio 3");
+    }
 
 }
